@@ -14,8 +14,6 @@ public class PlagiarismChecker extends Frame implements ActionListener {
     Button checkButton;
     Label resultLabel;
     BufferedImage backgroundImage;
-
-    // Sample reference text
     String referenceText = "When the big clock at the train station stopped, the leaves kept falling" +
             " This blew my mind in high school, and I wasn’t the only one." + " Knowledge is power";
 
@@ -143,4 +141,5 @@ public class PlagiarismChecker extends Frame implements ActionListener {
     public static void main(String[] args) {
         new PlagiarismChecker();
     }
+
 }
